@@ -1,0 +1,40 @@
+{
+    "type": "set-params",
+    "id": "59a",
+    "params": [
+        {
+            "key": "fq",
+            "value": "-mdc_job_s:spark*",
+            "policy": "append"
+        },
+        {
+            "key": "fq",
+            "value": "-cause_file_s:(Ignite* SparkJobTask.java GridClosureProcessor.java ComputeTaskAdapter.java)",
+            "policy": "append"
+        },
+        {
+            "key": "fq",
+            "value": "-cause_class_s:(\"org.apache.ignite*\")",
+            "policy": "append"
+        },
+        {
+            "key": "fq",
+            "value": "-file_s:(\"/opt/fusion/var/log/api/spark-driver-default.log\")",
+            "policy": "append"
+        },
+        {
+            "key": "fq",
+            "value": "-logger_class_s:(spark.client.SparkJobTask spark.job.SparkJobManager scheduler*)",
+            "policy": "append"
+        },
+        {
+            "key": "fq",
+            "value": "-level_s:INFO",
+            "policy": "append"
+        }
+    ],
+    "skip": false,
+    "label": "Filter out logs noise",
+    "licensed": true,
+    "secretSourceStageId": "59a"
+}

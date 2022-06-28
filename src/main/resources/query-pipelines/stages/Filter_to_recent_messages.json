@@ -1,0 +1,15 @@
+{
+    "type": "set-params",
+    "id": "67b",
+    "params": [
+        {
+            "key": "fq",
+            "value": "timestamp_tdt:[NOW/MINUTE-15MINUTES TO *]",
+            "policy": "append"
+        }
+    ],
+    "skip": false,
+    "label": "Filter to recent messages",
+    "licensed": true,
+    "secretSourceStageId": "67b"
+}

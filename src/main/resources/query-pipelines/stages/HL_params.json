@@ -1,0 +1,20 @@
+{
+    "type": "set-params",
+    "id": "4oe",
+    "params": [
+        {
+            "key": "hl",
+            "value": "on",
+            "policy": "default"
+        },
+        {
+            "key": "hl.fl",
+            "value": "*",
+            "policy": "default"
+        }
+    ],
+    "skip": false,
+    "label": "HL params",
+    "licensed": true,
+    "secretSourceStageId": "4oe"
+}

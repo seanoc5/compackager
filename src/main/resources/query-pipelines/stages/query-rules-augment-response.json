@@ -1,0 +1,9 @@
+{
+    "type": "query-rules-augment-response",
+    "id": "7a3c685a-aa5e-4d99-bf92-ad9d326fc524",
+    "facetLabelParseDelimiter": "||",
+    "label": "query-rules-augment-response",
+    "skip": true,
+    "licensed": true,
+    "secretSourceStageId": "7a3c685a-aa5e-4d99-bf92-ad9d326fc524"
+}

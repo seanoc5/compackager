@@ -1,0 +1,15 @@
+{
+    "type": "set-params",
+    "id": "70l",
+    "params": [
+        {
+            "key": "pf",
+            "value": "logmessage_txt^10 message_txt^10",
+            "policy": "default"
+        }
+    ],
+    "skip": false,
+    "label": "phrase field",
+    "licensed": true,
+    "secretSourceStageId": "70l"
+}

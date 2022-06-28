@@ -1,0 +1,64 @@
+{
+    "type": "recommendation",
+    "id": "0dbadf96-3871-48fc-acdd-3f7d47382cd3",
+    "numRecommendations": 10,
+    "numSignals": 100,
+    "aggrType": "click@doc_id,filters,query",
+    "boostId": "id",
+    "boostingMethod": "query-param",
+    "boostingParam": "boost",
+    "queryParams": [
+        {
+            "key": "qf",
+            "value": "query_t"
+        },
+        {
+            "key": "pf",
+            "value": "query_t^50"
+        },
+        {
+            "key": "pf",
+            "value": "query_t~3^20"
+        },
+        {
+            "key": "pf2",
+            "value": "query_t^20"
+        },
+        {
+            "key": "pf2",
+            "value": "query_t~3^10"
+        },
+        {
+            "key": "pf3",
+            "value": "query_t^10"
+        },
+        {
+            "key": "pf3",
+            "value": "query_t~3^5"
+        },
+        {
+            "key": "boost",
+            "value": "map(query({!field f=query_s v=$q}),0,0,1,20)"
+        },
+        {
+            "key": "mm",
+            "value": "50%"
+        },
+        {
+            "key": "defType",
+            "value": "edismax"
+        },
+        {
+            "key": "sort",
+            "value": "score desc, weight_d desc"
+        }
+    ],
+    "rollupField": "doc_id_s",
+    "rollupWeightField": "weight_d",
+    "weightExpression": "math:log(weight_d + 1) + 10 * math:log(score+1)",
+    "rollupWeightStrategy": "max",
+    "label": "recommendation",
+    "skip": true,
+    "licensed": true,
+    "secretSourceStageId": "0dbadf96-3871-48fc-acdd-3f7d47382cd3"
+}

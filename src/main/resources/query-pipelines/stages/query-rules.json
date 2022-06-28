@@ -1,0 +1,23 @@
+{
+    "type": "query-rules",
+    "id": "3f3ad0f7-1b82-415f-a946-9e5224ea0ccc",
+    "useEmbeddedSolrServer": false,
+    "useOriginalQueryIfNoRulesMatch": true,
+    "matchPartialFilterQueries": true,
+    "handler": "select",
+    "method": "POST",
+    "ruleLimit": "100",
+    "params": [
+        
+    ],
+    "hierarchicalFilter": [
+        
+    ],
+    "headers": [
+        
+    ],
+    "label": "query-rules",
+    "skip": true,
+    "licensed": true,
+    "secretSourceStageId": "3f3ad0f7-1b82-415f-a946-9e5224ea0ccc"
+}

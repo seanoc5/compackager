@@ -1,0 +1,48 @@
+{
+    "type": "facet",
+    "id": "890a1e71-6886-48a3-b923-5078706250ac",
+    "fieldFacets": [
+        {
+            "field": "file_s",
+            "minCount": 1,
+            "missing": false
+        },
+        {
+            "field": "level_s",
+            "minCount": 1,
+            "missing": false
+        },
+        {
+            "field": "mdc_datasourceId_s",
+            "minCount": 1,
+            "missing": false
+        },
+        {
+            "field": "mdc_job_s",
+            "minCount": 1,
+            "missing": false
+        },
+        {
+            "field": "mdc_jobRunId_s",
+            "minCount": 1,
+            "missing": false
+        },
+        {
+            "field": "service_s",
+            "minCount": 1,
+            "missing": false
+        },
+        {
+            "field": "timestamp_tdt",
+            "minCount": 1,
+            "missing": false
+        }
+    ],
+    "label": "facets",
+    "skip": false,
+    "licensed": true,
+    "secretSourceStageId": "890a1e71-6886-48a3-b923-5078706250ac",
+    "properties": {
+        "autoCreated": true
+    }
+}

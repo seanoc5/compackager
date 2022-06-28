@@ -1,0 +1,11 @@
+{
+    "type": "solr-query",
+    "id": "9b3d191e-0f45-4aee-99c7-bf5569586e90",
+    "httpMethod": "POST",
+    "allowFederatedSearch": false,
+    "label": "solr-query",
+    "skip": false,
+    "responseSignalsEnabled": true,
+    "licensed": true,
+    "secretSourceStageId": "9b3d191e-0f45-4aee-99c7-bf5569586e90"
+}

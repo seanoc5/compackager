@@ -1,0 +1,15 @@
+{
+    "type": "set-params",
+    "id": "wagj",
+    "params": [
+        {
+            "key": "q.alt",
+            "value": "*:*",
+            "policy": "default"
+        }
+    ],
+    "skip": false,
+    "label": "Q.alt",
+    "licensed": true,
+    "secretSourceStageId": "wagj"
+}

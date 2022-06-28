@@ -1,0 +1,107 @@
+[27-Jun 22:43  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 22:43  INFO]  Done...? 
+[27-Jun 22:45  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 22:45  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 22:50  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 22:50  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:01  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:02  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:14  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:16  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:16  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:17  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:17  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:20  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:20  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:20  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:20  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:20  INFO]  Export stage (91n) type: set-params, name: set-params.91n 
+[27-Jun 23:25  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:25  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:26  INFO]  Export stage (91n) type: set-params, name: set-params.91n 
+[27-Jun 23:26  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:26  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:26  INFO]  Export stage (91n) type: set-params, name: set-params.91n to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/set-params.91n.json 
+[27-Jun 23:26  INFO]  Export stage (70l) type: set-params, name: set-params.70l to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/set-params.70l.json 
+[27-Jun 23:26  INFO]  Export stage (4oe) type: set-params, name: set-params.4oe to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/set-params.4oe.json 
+[27-Jun 23:26  INFO]  Export stage (wagj) type: set-params, name: set-params.wagj to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/set-params.wagj.json 
+[27-Jun 23:26  INFO]  Export stage (67b) type: set-params, name: set-params.67b to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/set-params.67b.json 
+[27-Jun 23:26  INFO]  Export stage (59a) type: set-params, name: set-params.59a to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/set-params.59a.json 
+[27-Jun 23:26  INFO]  Export stage (e8b8fa10-7215-4b55-8fc1-fc55224ec0d3) type: text-tagger, name: text-tagger.e8b8fa10-7215-4b55-8fc1-fc55224ec0d3 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/text-tagger.e8b8fa10-7215-4b55-8fc1-fc55224ec0d3.json 
+[27-Jun 23:26  INFO]  Export stage (0dbadf96-3871-48fc-acdd-3f7d47382cd3) type: recommendation, name: recommendation.0dbadf96-3871-48fc-acdd-3f7d47382cd3 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/recommendation.0dbadf96-3871-48fc-acdd-3f7d47382cd3.json 
+[27-Jun 23:26  INFO]  Export stage (36d5a725-9e19-4b3b-8593-041142bf7993) type: search-fields, name: search-fields.36d5a725-9e19-4b3b-8593-041142bf7993 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/search-fields.36d5a725-9e19-4b3b-8593-041142bf7993.json 
+[27-Jun 23:26  INFO]  Export stage (890a1e71-6886-48a3-b923-5078706250ac) type: facet, name: facet.890a1e71-6886-48a3-b923-5078706250ac to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/facet.890a1e71-6886-48a3-b923-5078706250ac.json 
+[27-Jun 23:26  INFO]  Export stage (3f3ad0f7-1b82-415f-a946-9e5224ea0ccc) type: query-rules, name: query-rules.3f3ad0f7-1b82-415f-a946-9e5224ea0ccc to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/query-rules.3f3ad0f7-1b82-415f-a946-9e5224ea0ccc.json 
+[27-Jun 23:26  INFO]  Export stage (9b3d191e-0f45-4aee-99c7-bf5569586e90) type: solr-query, name: solr-query.9b3d191e-0f45-4aee-99c7-bf5569586e90 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/solr-query.9b3d191e-0f45-4aee-99c7-bf5569586e90.json 
+[27-Jun 23:26  INFO]  Export stage (7a3c685a-aa5e-4d99-bf92-ad9d326fc524) type: query-rules-augment-response, name: query-rules-augment-response.7a3c685a-aa5e-4d99-bf92-ad9d326fc524 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/query-rules-augment-response.7a3c685a-aa5e-4d99-bf92-ad9d326fc524.json 
+[27-Jun 23:31  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:31  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:31  INFO]  Export stage (91n) type: set-params, name: set-params.91n to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/set-params.91n.json 
+[27-Jun 23:44  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:44  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:45  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:45  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:45  INFO]  Export stage (91n) type: set-params, name: Sort_Timestamp_desc to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Sort_Timestamp_desc.json 
+[27-Jun 23:47  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:47  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:47  INFO]  Export stage (91n) type: set-params, name: Sort_Timestamp_desc to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Sort_Timestamp_desc.json 
+[27-Jun 23:48  INFO]  Export stage (70l) type: set-params, name: phrase_field to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/phrase_field.json 
+[27-Jun 23:48  INFO]  Export stage (4oe) type: set-params, name: HL_params to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/HL_params.json 
+[27-Jun 23:48  INFO]  Export stage (wagj) type: set-params, name: Q.alt to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Q.alt.json 
+[27-Jun 23:48  INFO]  Export stage (67b) type: set-params, name: Filter_to_recent_messages to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Filter_to_recent_messages.json 
+[27-Jun 23:48  INFO]  Export stage (59a) type: set-params, name: Filter_out_noise to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Filter_out_noise.json 
+[27-Jun 23:50  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:50  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:50  INFO]  Export stage (91n) type: set-params, name: Sort_Timestamp_desc to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Sort_Timestamp_desc.json 
+[27-Jun 23:50  INFO]  Export stage (70l) type: set-params, name: phrase_field to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/phrase_field.json 
+[27-Jun 23:50  INFO]  Export stage (4oe) type: set-params, name: HL_params to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/HL_params.json 
+[27-Jun 23:50  INFO]  Export stage (wagj) type: set-params, name: Q.alt to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Q.alt.json 
+[27-Jun 23:50  INFO]  Export stage (67b) type: set-params, name: Filter_to_recent_messages to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Filter_to_recent_messages.json 
+[27-Jun 23:50  INFO]  Export stage (59a) type: set-params, name: Filter_out_noise to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Filter_out_noise.json 
+[27-Jun 23:50  INFO]  No label found, using Type and id: text-tagger.e8b8fa10-7215-4b55-8fc1-fc55224ec0d3 
+[27-Jun 23:50  INFO]  Export stage (e8b8fa10-7215-4b55-8fc1-fc55224ec0d3) type: text-tagger, name: text-tagger.e8b8fa10-7215-4b55-8fc1-fc55224ec0d3 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/text-tagger.e8b8fa10-7215-4b55-8fc1-fc55224ec0d3.json 
+[27-Jun 23:50  INFO]  No label found, using Type and id: recommendation.0dbadf96-3871-48fc-acdd-3f7d47382cd3 
+[27-Jun 23:50  INFO]  Export stage (0dbadf96-3871-48fc-acdd-3f7d47382cd3) type: recommendation, name: recommendation.0dbadf96-3871-48fc-acdd-3f7d47382cd3 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/recommendation.0dbadf96-3871-48fc-acdd-3f7d47382cd3.json 
+[27-Jun 23:50  INFO]  No label found, using Type and id: search-fields.36d5a725-9e19-4b3b-8593-041142bf7993 
+[27-Jun 23:50  INFO]  Export stage (36d5a725-9e19-4b3b-8593-041142bf7993) type: search-fields, name: search-fields.36d5a725-9e19-4b3b-8593-041142bf7993 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/search-fields.36d5a725-9e19-4b3b-8593-041142bf7993.json 
+[27-Jun 23:50  INFO]  No label found, using Type and id: facet.890a1e71-6886-48a3-b923-5078706250ac 
+[27-Jun 23:50  INFO]  Export stage (890a1e71-6886-48a3-b923-5078706250ac) type: facet, name: facet.890a1e71-6886-48a3-b923-5078706250ac to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/facet.890a1e71-6886-48a3-b923-5078706250ac.json 
+[27-Jun 23:50  INFO]  No label found, using Type and id: query-rules.3f3ad0f7-1b82-415f-a946-9e5224ea0ccc 
+[27-Jun 23:50  INFO]  Export stage (3f3ad0f7-1b82-415f-a946-9e5224ea0ccc) type: query-rules, name: query-rules.3f3ad0f7-1b82-415f-a946-9e5224ea0ccc to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/query-rules.3f3ad0f7-1b82-415f-a946-9e5224ea0ccc.json 
+[27-Jun 23:50  INFO]  No label found, using Type and id: solr-query.9b3d191e-0f45-4aee-99c7-bf5569586e90 
+[27-Jun 23:50  INFO]  Export stage (9b3d191e-0f45-4aee-99c7-bf5569586e90) type: solr-query, name: solr-query.9b3d191e-0f45-4aee-99c7-bf5569586e90 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/solr-query.9b3d191e-0f45-4aee-99c7-bf5569586e90.json 
+[27-Jun 23:50  INFO]  No label found, using Type and id: query-rules-augment-response.7a3c685a-aa5e-4d99-bf92-ad9d326fc524 
+[27-Jun 23:50  INFO]  Export stage (7a3c685a-aa5e-4d99-bf92-ad9d326fc524) type: query-rules-augment-response, name: query-rules-augment-response.7a3c685a-aa5e-4d99-bf92-ad9d326fc524 to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/query-rules-augment-response.7a3c685a-aa5e-4d99-bf92-ad9d326fc524.json 
+[27-Jun 23:51  INFO]  Done...? 
+[27-Jun 23:55  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:55  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:55  INFO]  Export stage (91n) type: set-params, name: Sort_Timestamp_desc to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Sort_Timestamp_desc.json 
+[27-Jun 23:55  INFO]  Export stage (70l) type: set-params, name: phrase_field to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/phrase_field.json 
+[27-Jun 23:55  INFO]  Export stage (4oe) type: set-params, name: HL_params to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/HL_params.json 
+[27-Jun 23:55  INFO]  Export stage (wagj) type: set-params, name: Q.alt to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Q.alt.json 
+[27-Jun 23:55  INFO]  Export stage (67b) type: set-params, name: Filter_to_recent_messages to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Filter_to_recent_messages.json 
+[27-Jun 23:55  INFO]  Export stage (59a) type: set-params, name: Filter_out_logs_noise to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Filter_out_logs_noise.json 
+[27-Jun 23:55  INFO]  Export stage (e8b8fa10-7215-4b55-8fc1-fc55224ec0d3) type: text-tagger, name: text-tagger to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/text-tagger.json 
+[27-Jun 23:55  INFO]  Export stage (0dbadf96-3871-48fc-acdd-3f7d47382cd3) type: recommendation, name: recommendation to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/recommendation.json 
+[27-Jun 23:55  INFO]  Export stage (36d5a725-9e19-4b3b-8593-041142bf7993) type: search-fields, name: search-fields to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/search-fields.json 
+[27-Jun 23:55  INFO]  Export stage (890a1e71-6886-48a3-b923-5078706250ac) type: facet, name: facets to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/facets.json 
+[27-Jun 23:55  INFO]  Export stage (3f3ad0f7-1b82-415f-a946-9e5224ea0ccc) type: query-rules, name: query-rules to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/query-rules.json 
+[27-Jun 23:55  INFO]  Export stage (9b3d191e-0f45-4aee-99c7-bf5569586e90) type: solr-query, name: solr-query to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/solr-query.json 
+[27-Jun 23:55  INFO]  Export stage (7a3c685a-aa5e-4d99-bf92-ad9d326fc524) type: query-rules-augment-response, name: query-rules-augment-response to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/query-rules-augment-response.json 
+[27-Jun 23:55  INFO]  Done...? 
+[27-Jun 23:56  INFO]  Starting splitJsonIntoFraments... 
+[27-Jun 23:56  INFO]  groovy.lang.StringWriterIOException: java.io.IOException: Stream closed 
+[27-Jun 23:56  INFO]  Export stage (91n) type: set-params, name: Sort_Timestamp_desc to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Sort_Timestamp_desc.json 
+[27-Jun 23:56  INFO]  Export stage (70l) type: set-params, name: phrase_field to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/phrase_field.json 
+[27-Jun 23:56  INFO]  Export stage (4oe) type: set-params, name: HL_params to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/HL_params.json 
+[27-Jun 23:56  INFO]  Export stage (wagj) type: set-params, name: Q.alt to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Q.alt.json 
+[27-Jun 23:56  INFO]  Export stage (67b) type: set-params, name: Filter_to_recent_messages to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Filter_to_recent_messages.json 
+[27-Jun 23:56  INFO]  Export stage (59a) type: set-params, name: Filter_out_logs_noise to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/Filter_out_logs_noise.json 
+[27-Jun 23:56  INFO]  Export stage (e8b8fa10-7215-4b55-8fc1-fc55224ec0d3) type: text-tagger, name: text-tagger to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/text-tagger.json 
+[27-Jun 23:56  INFO]  Export stage (0dbadf96-3871-48fc-acdd-3f7d47382cd3) type: recommendation, name: recommendation to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/recommendation.json 
+[27-Jun 23:56  INFO]  Export stage (36d5a725-9e19-4b3b-8593-041142bf7993) type: search-fields, name: search-fields to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/search-fields.json 
+[27-Jun 23:56  INFO]  Export stage (890a1e71-6886-48a3-b923-5078706250ac) type: facet, name: facets to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/facets.json 
+[27-Jun 23:56  INFO]  Export stage (3f3ad0f7-1b82-415f-a946-9e5224ea0ccc) type: query-rules, name: query-rules to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/query-rules.json 
+[27-Jun 23:56  INFO]  Export stage (9b3d191e-0f45-4aee-99c7-bf5569586e90) type: solr-query, name: solr-query to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/solr-query.json 
+[27-Jun 23:56  INFO]  Export stage (7a3c685a-aa5e-4d99-bf92-ad9d326fc524) type: query-rules-augment-response, name: query-rules-augment-response to file: /home/sean/work/lucidworks/compackager/build/resources/main/query-pipelines/stages/query-rules-augment-response.json 
+[27-Jun 23:56  INFO]  Done...? 

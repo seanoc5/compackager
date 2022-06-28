@@ -1,0 +1,12 @@
+
+<component-def name="TYPEAHEAD" version="1.0" app="Components">
+   <objects>
+      <object type="spark" id="PS_TYPEAHEAD_history_load"/>
+      <object type="spark" id="PS_TYPEAHEAD_entity_load"/>
+      <object type="query-pipelines" id="PS_TYPEAHEAD_QPL"/>
+      <object type="query-profiles" id="PS_TYPEAHEAD_QPF"/>
+   </objects>
+   <collections>
+      <collection name="PS_TYPEAHEAD"/>
+   </collections>
+</component-def>

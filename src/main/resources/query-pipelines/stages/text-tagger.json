@@ -1,0 +1,21 @@
+{
+    "type": "text-tagger",
+    "id": "e8b8fa10-7215-4b55-8fc1-fc55224ec0d3",
+    "useEmbeddedSolrServer": false,
+    "paramToTag": "q",
+    "spell_corrections_enabled": true,
+    "phrase_boosting_enabled": true,
+    "tail_rewrites_enabled": true,
+    "phraseBoost": 2.0,
+    "phraseSlop": 10,
+    "synonymExpansionBoost": 2.0,
+    "synonym_expansion_enabled": true,
+    "overlaps": "ALL",
+    "params": [
+        
+    ],
+    "label": "text-tagger",
+    "skip": true,
+    "licensed": true,
+    "secretSourceStageId": "e8b8fa10-7215-4b55-8fc1-fc55224ec0d3"
+}

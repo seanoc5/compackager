@@ -1,0 +1,11 @@
+{
+   "foundry.FEATURE_NAME": "DE_TESTS",
+   "foundry.destination.APP": "Eric_Tests",
+   "foundry.destination.COLLECTION": "Stuller",
+   "foundry.destination.SIGNALS_COLLECTION": "Stuller_signals",
+   "foundry.typeahead.ZKHOST": "ps-foundry-zookeeper-0.ps-foundry-zookeeper-headless:2181,ps-foundry-zookeeper-1.ps-foundry-zookeeper-headless:2181,ps-foundry-zookeeper-2.ps-foundry-zookeeper-headless:2181",
+   "foundry.typeahead.TYPE_NAMES": "group,metal,name,Marketing_Category",
+   "foundry.typeahead.VALUE_FIELDS": "groupId_s,threCMetalType_s,name_s,marketingCategories.marketingCategory_s",
+   "foundry.typeahead.IMAGE_URL_FIELDS": "image_s,null,image_s,null",
+   "foundry.typeahead.DOCUMENT_URL_FIELDS": "null,image_s,image_s,null"
+}

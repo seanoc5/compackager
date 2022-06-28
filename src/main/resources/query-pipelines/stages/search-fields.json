@@ -1,0 +1,17 @@
+{
+    "type": "search-fields",
+    "id": "36d5a725-9e19-4b3b-8593-041142bf7993",
+    "rows": 10,
+    "start": 0,
+    "queryFields": [
+        
+    ],
+    "returnFields": [
+        "*",
+        "score"
+    ],
+    "label": "search-fields",
+    "skip": false,
+    "licensed": true,
+    "secretSourceStageId": "36d5a725-9e19-4b3b-8593-041142bf7993"
+}

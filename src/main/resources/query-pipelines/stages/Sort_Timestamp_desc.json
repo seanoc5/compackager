@@ -1,0 +1,15 @@
+{
+    "type": "set-params",
+    "id": "91n",
+    "params": [
+        {
+            "key": "sort",
+            "value": "timestamp_tdt desc",
+            "policy": "append"
+        }
+    ],
+    "skip": false,
+    "label": "Sort Timestamp desc",
+    "licensed": true,
+    "secretSourceStageId": "91n"
+}

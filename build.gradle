@@ -1,11 +1,19 @@
 plugins {
     id 'groovy'
+    id 'maven-publish'
+    id 'idea'
+    id 'java'
 }
 
 group 'com.lucidworks.ps'
 version '0.1'
 
 repositories {
+    mavenLocal()
+
+    // https://decisionbrain.com/when-to-not-use-mavenlocal-in-your-gradle-build-script/
+    // url "http://nexus.mycompany.loc/repository/internal"
+
     mavenCentral()
 }
 

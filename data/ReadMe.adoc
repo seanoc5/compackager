@@ -1,0 +1,27 @@
+= Component Packager for Fusion
+
+ComPackager (or rename to ComPackSion, ComPkgSion...?)
+
+== Overview/Goals
+Look at existing build/package tools to leverage for building (and deploying?) https://doc.lucidworks.com/fusion/5.5/3210/introduction-to-fusion[Fusion] components.
+
+== Thoughts on functionality
+
+* Support versioning
+* Support dependencies
+* Investigate deployments
+
+=== Handling Files
+Project.files(...)
+
+
+
+== Links and research material
+
+https://medium.com/widgetlabs-engineering/using-a-maven-repository-in-a-private-github-repository-with-gradle-46ab73f198a6
+https://stackoverflow.com/questions/20986528/gradle-build-non-java-project
+
+
+https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:maven_local
+https://github.com/int128/gradle-ssh-plugin
+

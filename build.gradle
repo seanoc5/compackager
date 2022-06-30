@@ -11,18 +11,18 @@ group 'com.lucidworks.ps'
 version '0.1'
 
 publishing {
-    publications {
-        myLibrary(MavenPublication) {
-            from components.java
-        }
-    }
-
-    repositories {
-        maven {
-            name = 'myRepo'
-            url = layout.buildDirectory.dir("repo")
-        }
-    }
+//    publications {
+//        myLibrary(MavenPublication) {
+//            from components.java
+//        }
+//    }
+//
+//    repositories {
+//        maven {
+//            name = 'myRepo'
+//            url = layout.buildDirectory.dir("repo")
+//        }
+//    }
 }
 
 repositories {
@@ -45,6 +45,10 @@ dependencies {
 
     implementation 'log4j:log4j:1.2.17'
 
+}
+
+task helloWorld() {
+    println "Hello World"
 }
 
 test {

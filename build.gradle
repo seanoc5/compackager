@@ -1,12 +1,29 @@
 plugins {
     id 'groovy'
+    // https://docs.gradle.org/current/userguide/publishing_maven.html
     id 'maven-publish'
     id 'idea'
-    id 'java'
+    // redundant with 'groovy' above?
+    id 'java-library'
 }
 
 group 'com.lucidworks.ps'
 version '0.1'
+
+publishing {
+    publications {
+        myLibrary(MavenPublication) {
+            from components.java
+        }
+    }
+
+    repositories {
+        maven {
+            name = 'myRepo'
+            url = layout.buildDirectory.dir("repo")
+        }
+    }
+}
 
 repositories {
     mavenLocal()
